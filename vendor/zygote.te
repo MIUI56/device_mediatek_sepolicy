@@ -27,5 +27,5 @@ allow zygote untrusted_app:fd use;
 
 # Purpose : for TTLIA
 allow zygote radio:fd use;
-
+allow zygote self:capability sys_nice;
 allow zygote init:unix_stream_socket connectto;

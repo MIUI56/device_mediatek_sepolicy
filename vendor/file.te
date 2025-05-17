@@ -509,3 +509,4 @@ type sysfs_fpsgo, fs_type, sysfs_type;
 
 # sysfs xgf
 type sysfs_xgf, fs_type, sysfs_type;
+
