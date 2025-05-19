@@ -3,7 +3,7 @@ allow mediacodec devmap_device:chr_file { ioctl };
 
 # Purpose : VDEC/VENC device node
 allow mediacodec Vcodec_device:chr_file rw_file_perms;
-
+allow mediacodec video_device:chr_file { read write open  };
 # Purpose : VP & VR dump and debug
 allow mediacodec M4U_device_device:chr_file rw_file_perms;
 allow mediacodec proc:file r_file_perms;
